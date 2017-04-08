@@ -1,0 +1,117 @@
+<html><head>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="../css/dropdown.css">
+          <link rel = "icon" href="../Homepage/cricIcon.png">
+          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+          <title>Gallery</title>
+          <style media="screen">
+               body{
+                    margin:0;
+                    padding: 0;
+               }
+               *{
+                    font-family: 'Montserrat', sans-serif;
+               }
+               img{
+                    width: 400px;
+                    margin-left: 35px;
+                    margin-top: 30px;
+                    height: 250px;
+                    float: left;
+               }
+               #loading1,#loading2,#loading3{
+                    transform: scale(0);
+               }
+               #loading4,#loading5,#loading6{
+                    transform: scale(0);
+               }
+		</style>
+	</head>
+     <body onload="load()">
+          <script type="text/javascript">
+               function load(){
+                    var sty1 = document.getElementById("loading1").style;
+                    var sty2 = document.getElementById("loading2").style;
+                    var sty3 = document.getElementById("loading3").style;
+                    var sty4 = document.getElementById("loading4").style;
+                    var sty5 = document.getElementById("loading5").style;
+                    var sty6 = document.getElementById("loading6").style;
+                    //sty.bottom = "300px";
+                    sty1.webkitTransform = "scale(1)";
+                    sty1.webkitTransition = "all 1s cubic-bezier(0,1.42,.26,.85)";
+                    sty1.webkitTransitionDelay = "0.9s";
+                    sty2.webkitTransform = "scale(1)";
+                    sty2.webkitTransition = "all 1s cubic-bezier(0,1.42,.26,.85)";
+                    sty2.webkitTransitionDelay = "0.8s";
+                    sty3.webkitTransform = "scale(1)";
+                    sty3.webkitTransition = "all 1s cubic-bezier(0,1.42,.26,.85)";
+                    sty3.webkitTransitionDelay = "0.7s";
+                    sty4.webkitTransform = "scale(1)";
+                    sty4.webkitTransition = "all 1s cubic-bezier(0,1.42,.26,.85)";
+                    sty4.webkitTransitionDelay = "0.6s";
+                    sty5.webkitTransform = "scale(1)";
+                    sty5.webkitTransition = "all 1s cubic-bezier(0,1.42,.26,.85)";
+                    sty5.webkitTransitionDelay = "0.4s";
+                    sty6.webkitTransform = "scale(1)";
+                    sty6.webkitTransition = "all 1s cubic-bezier(0,1.42,.26,.85)";
+                    sty6.webkitTransitionDelay = "0.2s";
+               }
+          </script>
+     	<header style="z-index:10;">
+          <div id="dropdown">
+		  <ul>
+				<li><a href = "../Homepage/index.php">Home</a>
+				</li>
+			</ul>
+              <ul>
+				<li><a href = "#">Teams</a>
+					<ul>
+						<li><a href = "../India/India.html">India</a></li>
+						<li><a href = "../australia/aus.html">Australia</a></li>
+						<li><a href = "../england/eng.html">England</a></li>
+						<li><a href = "../sa/sa.html">South Africa</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li><a href = "../news/news.html">News</a>
+				</li>
+			</ul>
+			<ul>
+				<li><a href = "#">Rankings</a>
+					<ul>
+						<li><a href = "../Rankings/PR.html">Top Batsmen</a></li>
+						<li><a href = "../Rankings/Bowler.html">Top Bowlers</a></li>
+						<li><a href = "../Rankings/AR.html">Top Allrounders</a></li>
+						<li><a href = "../Rankings/TR.html">Top Teams</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li><a href = "../Gallery/gallery.html">Photos</a>
+				</li>
+			</ul>			<ul>
+				<li><a href = "../about/about.html">About Us</a>
+				</li>
+			</ul>
+          </div>
+          </header>
+     <div id="loading1">
+          <img src="1999.jpg" alt="">
+     </div>
+     <div id="loading2">
+          <img src="2003.ashx" alt="">
+     </div>
+     <div id="loading3">
+          <img src="2007.jpg" alt="">
+     </div>
+     <div id="loading4">
+          <img src="2011.jpg" alt="">
+     </div>
+     <div id="loading5">
+          <img src="2015.jpg" alt="">
+     </div>
+     <div id="loading6">
+          <img src="testmace.jpg" alt="">
+     </div>
+</body></html>

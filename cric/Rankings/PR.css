@@ -1,0 +1,54 @@
+body{
+	margin:0;
+	padding:0;
+}
+*{
+     font-family: 'Montserrat', sans-serif;
+}
+.one,.two,.three,.four,.five,.six{
+     position: absolute;
+     width: 155px;
+     height: 35px;
+     z-index: -1;
+     border-radius: 50px;
+}
+.one{
+     box-shadow: 170px 15px 23px rgba(0,0,0,0.8);
+}
+.two{
+     box-shadow: 170px 487px 23px rgba(0,0,0,0.8);
+}
+.three{
+     box-shadow: 592px 15px 23px rgba(0,0,0,0.8);
+}
+.four{
+     box-shadow: 592px 487px 23px rgba(0,0,0,0.8);
+}
+.five{
+     box-shadow: 1014px 15px 23px rgba(0,0,0,0.8);
+}
+.six{
+     box-shadow: 1014px 487px 23px rgba(0,0,0,0.8);
+}
+#rank{
+	float:left;
+	margin-top:1%;
+	margin-left:4%;
+     margin-bottom: 3%;
+	border:none;
+     width: 375px;
+	border-radius:20px;
+	background: #6db082;
+     transition: all 0.5s;
+}
+#rank tr{
+	width:500px;
+	height:40px;
+}
+#rank td{
+     text-align: center;
+}
+#rank:hover{
+     color: white;
+     transition: all 0.5s;
+}

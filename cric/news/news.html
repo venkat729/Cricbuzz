@@ -1,0 +1,155 @@
+<html>
+	<head>
+		<link rel = "stylesheet" href = "../India/India.css">
+          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+          <link rel = "stylesheet" href = "../css/dropdown.css">
+		<style>
+               *{
+                    font-family: 'Montserrat', sans-serif;
+               }
+			body{
+				margin:0;
+			}
+               #loading{
+                    position: relative;
+                    bottom: -500px;
+                    transform: scale(0);
+               }
+		</style>
+	</head>
+     <body onload="load()">
+          <script type="text/javascript">
+               function load(){
+                    var sty1 = document.getElementById("loading").style;
+                    sty1.bottom = "0px";
+                    sty1.webkitTransform = "scale(1)";
+                    sty1.webkitTransition = "all 1s cubic-bezier(0,1.42,.26,.85)";
+               }
+          </script>
+     	<header style="z-index:10;">
+		<div id = "dropdown">
+		<ul>
+				<li><a href = "../Homepage/index.php">Home</a>
+				</li>
+			</ul>
+			<ul>
+				<li><a href = "">Teams</a>
+					<ul>
+						<li><a href = "../India/India.html">India</a></li>
+						<li><a href = "../australia/aus.html">Australia</a></li>
+						<li><a href = "../england/eng.html">England</a></li>
+						<li><a href = "../sa/sa.html">South Africa</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li><a href = "../news/news.html">News</a>
+
+				</li>
+			</ul>
+			<ul>
+				<li><a href = "#">Rankings</a>
+					<ul>
+						<li><a href = "../Rankings/PR.html">Top Batsmen</a></li>
+						<li><a href = "../Rankings/Bowler.html">Top Bowlers</a></li>
+						<li><a href = "../Rankings/AR.html">Top Allrounders</a></li>
+						<li><a href = "../Rankings/TR.html">Top Teams</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li><a href = "../Gallery/gallery.html">Photos</a>
+					<ul>
+					</ul>
+				</li>
+			</ul>			<ul>
+				<li><a href = "../about/about.html">About Us</a>
+					<ul>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		</header>
+          <div id="loading">
+
+		<div id = "arrange1">
+		<table id = "SlideShow" style = "border:2px solid none;background:white;margin-bottom:2%;">
+			<tr>
+				<th></th>
+			</tr>
+			<tr>
+				<td>
+					<img src = "../Homepage/Aus.jpg" width = "600px" style = "margin-left:12.5%;"/><br>
+					<br>
+					David Warner scored a 78-ball ton while the 20-year-old Matt Renshaw became the third youngest Australian opener to score a Test ton
+				</td>
+			</tr>
+			</table>
+		<table id = "SlideShow" style = "border:2px solid none;background:white;margin-bottom:2%;">
+			<tr>
+				<th></th>
+			</tr>
+			<tr>
+				<td>
+					<img src = "../Homepage/Anurag.jpg" width = "600px" style = "margin-left:12.5%;"/><br>
+					<br>
+					Ajay Shirke has also been removed as the secretary of the board
+					<br>
+				</td>
+			</tr>
+		</table>
+		<table id = "SlideShow" style = "border:2px solid none;background:white;margin-bottom:2%;">
+			<tr>
+				<th></th>
+			</tr>
+			<tr>
+				<td>
+					<img src = "rahane.jpeg" width = "600px" style = "margin-left:12.5%;"/><br>
+					<br>
+					Sachin's call before captaincy debut inspired me: Rahane
+					<br>
+				</td>
+			</tr>
+		</table><table id = "SlideShow" style = "border:2px solid none;background:white;margin-bottom:2%;">
+			<tr>
+				<th></th>
+			</tr>
+			<tr>
+				<td>
+					<img src = "rasid.jpeg" width = "600px" style = "margin-left:12.5%;"/><br>
+					<br>
+					Started working hard after getting selected in IPL: Rashid Khan
+					<br>
+				</td>
+			</tr>
+		</table><table id = "SlideShow" style = "border:2px solid none;background:white;margin-bottom:2%;">
+			<tr>
+				<th></th>
+			</tr>
+			<tr>
+				<td>
+					<img src = "bcci.jpeg" width = "600px" style = "margin-left:12.5%;"/><br>
+					<br>
+					Former cricketers write to CoA seeking one-time payment
+					<br>
+				</td>
+			</tr>
+		</table>
+		</div>
+          </div>
+		<style>
+			#SlideShow{
+				border:none;
+				width:800px;
+			}
+			#SlideShow td{
+				border-bottom:1px solid none;
+			}
+			#arrange1{
+				float:left;
+				 margin-left: 270px;
+				 margin-top: 30px;
+			}
+		</style>
+	</body>
+</html>
